@@ -2,8 +2,8 @@
   "skill": "image-registration",
   "skill_version": "1.0.0",
   "command": "image-registration --bbox 116 39 117 40 --synthetic --quiet --output-dir ./_test_cli_synth",
-  "started_at": "2026-08-03T17:51:47.174370Z",
-  "finished_at": "2026-08-03T17:51:47.373578Z",
+  "started_at": "2026-11-02T15:18:21.130885Z",
+  "finished_at": "2026-11-02T15:18:21.694230Z",
   "exit_code": 0,
   "inputs": {
     "input": null,
@@ -14,7 +14,7 @@
   "datasets": [],
   "outputs": [
     {
-      "path": "./_test_cli_synth\\registered.tif",
+      "path": "./_test_cli_synth/registered.tif",
       "kind": "raster",
       "size_bytes": null,
       "crs_epsg": 4326,
@@ -31,7 +31,7 @@
       "row_count": null
     },
     {
-      "path": "./_test_cli_synth\\offset.json",
+      "path": "./_test_cli_synth/offset.json",
       "kind": "json",
       "size_bytes": null,
       "crs_epsg": null,
@@ -47,7 +47,7 @@
     "source": "synthetic",
     "estimated_shift_y": 4.0015025304386,
     "estimated_shift_x": -5.999772857340029,
-    "shift_magnitude": 7.21174714204406,
+    "shift_magnitude": 7.211747142044059,
     "n_bands": 3,
     "interior_rmse_vs_ref": 1.1871905428701409e-05,
     "true_shift_y": 4.0,
@@ -55,7 +55,7 @@
     "shift_recovery_error": 0.0015196024173770638
   },
   "software": {
-    "python": "3.9.21",
+    "python": "3.12.3",
     "skill": "image-registration"
   },
   "error": null
